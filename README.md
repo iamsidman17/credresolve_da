@@ -12,6 +12,8 @@ Build a machine learning engine that analyzes a borrower's interaction history a
 ## Evaluation
 For every lead in the test set, the participant must predict the Probability_of_Payment ($P_{pay}$) for each channel. The system will select the channel with the highest ROI score:
 
+![ROI Score Formula](assets/roi_formula.png)
+
 **Winning Criteria:** The submission that yields the highest total specific Recovered Amount per Rupee Spent on the unseen test set wins.
 
 ## Submission File
